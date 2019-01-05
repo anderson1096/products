@@ -66,6 +66,17 @@ module.exports = (env) => {
             }
           }
         },
+        {
+          test: /\.(ttf|TTF)$/,
+            use: [
+              {
+                loader: 'ttf-loader',
+                options: {
+                  name: './font/[hash].[ext]',
+                },
+              },
+            ]
+        },
       ]
     },
     plugins
