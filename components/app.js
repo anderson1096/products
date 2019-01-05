@@ -10,6 +10,9 @@ import DetailProduct from './detail-product';
 import Description from './description';
 import LookBanner from './look-banner';
 import Showcase from './showcase';
+import Products from './products';
+import FooterNetwork from './footer-network';
+import FooterPage from './footer-page';
 
 import '../public/css/main.css';
 import MontserratFont from '../public/font/Montserrat-Regular.ttf';
@@ -33,6 +36,10 @@ class App extends Component{
             <br></br>
             <LookBanner />
             <Showcase />
+            <DetailProduct title="PRODUCTOS RECOMENDADOS"/>
+            <Products />
+            <FooterNetwork />
+            <FooterPage />
          </div>
       );
    }
