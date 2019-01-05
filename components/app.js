@@ -6,6 +6,10 @@ import Navbar from './navbar';
 import Path from './path';
 import Detail from './detail';
 import DetailFooter from './detail-footer';
+import DetailProduct from './detail-product';
+import Description from './description';
+import LookBanner from './look-banner';
+import Showcase from './showcase';
 
 import '../public/css/main.css';
 import MontserratFont from '../public/font/Montserrat-Regular.ttf';
@@ -22,6 +26,13 @@ class App extends Component{
             <Path />
             <Detail />
             <DetailFooter />
+            <DetailProduct title="DETALLES DE PRODUCTO"/>
+            <Description />
+            <DetailProduct title="TECNOLOGÍAS"/>
+            <Description />
+            <br></br>
+            <LookBanner />
+            <Showcase />
          </div>
       );
    }
