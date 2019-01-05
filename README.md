@@ -2,6 +2,10 @@
 
 Se utilizó *React* como Framework, además *Webpack* y *Babel*, para realizar las cargas y transformaciones de jsx y javascript moderno.
 
+Para su instalación:
+
+`npm install`
+
 Para su ejecución en desarrollo se ejecuta el siguiente comando, haciendo uso de npm:
 
 `npm run build:dev`
