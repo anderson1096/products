@@ -5,11 +5,10 @@ import { Card, CardImg, CardText, CardBody, CardTitle, CardSubtitle, Button } fr
 class CardShow extends Component{
   
    constructor(props){
-      super(props);
+      super(props); 
    }
    render(){
       let button;
-      let cardStyle = ""
       if(this.props.carrito){
          button = <Button className="btn-product-2">AGREGAR AL CARRITO</Button>
       }else{

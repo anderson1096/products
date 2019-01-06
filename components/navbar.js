@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-
+import logo1 from '../public/img/logo1.jpg';
+import logo2 from '../public/img/logo2.jpg';
 
 class Navbar extends Component{ 
 
@@ -8,8 +9,8 @@ class Navbar extends Component{
          <div>
             <div className="navbar row" id="navbar">
                <div id="logo-section" className="col-md-7">
-                  <img id="logo-img" src="../public/img/logo1.jpg"></img>
-                  <img id="logo-brand" src="../public/img/logo2.jpg"></img>     
+                  <img id="logo-img" src={logo1}></img>
+                  <img id="logo-brand" src={logo2}></img>     
                </div>
                <div id="form-section" className="col-md-5">
                   <form className="form-inline input-group">
