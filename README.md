@@ -10,7 +10,7 @@ Para su ejecución en desarrollo se ejecuta el siguiente comando, haciendo uso d
 
 `npm run build:dev`
 
-Luego abrir el archivo index.html
+Luego abrir el navegador en http://localhost:9000/
 
 Para realizar la compilación y transformaciones para producción:
 
