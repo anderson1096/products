@@ -1,10 +1,18 @@
-# Maquetado Sencillo
+# Maquetado Shoe Store
 
-Se utilizó *React* como Framework, además *Webpack* y *Babel*, para realizar las cargas y transformaciones de jsx y javascript moderno.
+Maquetado de una tienda de zapatos, se utilizó **React** como Framework, además **Webpack** y **Babel**, para realizar las cargas y transformaciones de jsx y javascript moderno.
 
-Para su instalación:
+### Requerimientos
+
+- [npm](https://www.npmjs.com/get-npm) 
+
+### Instalación
+
+Para la instalación de las dependencias necesarias, ejecutar el siguiente comando:
 
 `npm install`
+
+### Ejecución
 
 Para su ejecución en desarrollo se ejecuta el siguiente comando, haciendo uso de npm:
 
@@ -12,10 +20,11 @@ Para su ejecución en desarrollo se ejecuta el siguiente comando, haciendo uso d
 
 Luego abrir el navegador en http://localhost:9000/
 
-Para realizar la compilación y transformaciones para producción:
+### Enviar a Producción
+
+Para realizar la compilación y transformaciones para producción, ejecutar el siguiente comando:
 
 `npm run build:prod`
 
-Posteriormente modificar el enlace del script cargado en el archivo index.html a la dirección del js resultante en la carpeta /dist
 
 
