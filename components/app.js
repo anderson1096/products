@@ -17,6 +17,13 @@ import FooterPage from './footer-page';
 import '../public/css/main.css';
 import MontserratFont from '../public/font/Montserrat-Regular.ttf';
 
+function importAll(r) {
+   return r.keys().map(r);
+}
+ 
+const images = importAll(require.context('../public/img', false, /\.(png|jpe?g|svg)$/));
+
+console.log(images);
 
 class App extends Component{
 
