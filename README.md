@@ -7,6 +7,7 @@ Maquetado de una tienda de zapatos, se utilizó **React** como Framework, ademá
 #### Requerimientos
 
 - [npm](https://www.npmjs.com/get-npm) 
+
 Para la instalación de las dependencias necesarias, ejecutar el siguiente comando:
 
 `npm install`
